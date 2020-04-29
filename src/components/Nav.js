@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import BsNav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsers } from '@fortawesome/free-solid-svg-icons'
+
 const Nav = ({ register }) => {
   const [sticky, setSticky] = useState(false)
 
@@ -60,7 +61,7 @@ const Nav = ({ register }) => {
               <BsNav.Link href="#faqs">Faqs</BsNav.Link>
             </BsNav.Item>
           </BsNav>
-          {register == null ? null : (
+          {register === '' ? null : (
             <div className="custom-menu__right">
               <a
                 href={register}

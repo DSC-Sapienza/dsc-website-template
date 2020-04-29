@@ -9,16 +9,12 @@ import { faCalendar } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   const {
-    site: {
-      siteMetadata: { calendar, university },
-    },
+    websiteYaml: { calendar, university },
   } = useStaticQuery(graphql`
     {
-      site {
-        siteMetadata {
-          calendar
-          university
-        }
+      websiteYaml {
+        calendar
+        university
       }
     }
   `)
@@ -50,12 +46,8 @@ const Header = () => {
                   </p>
                 </div>
               </div>
-
-              {calendar == null ? null : (
-                <a
-                  className="hero-button"
-                  href={calendar}
-                >
+              {calendar === '' ? null : (
+                <a className="hero-button" href={calendar}>
                   <FontAwesomeIcon icon={faCalendar} className="mr-2" />
                   Add to calendar
                 </a>
