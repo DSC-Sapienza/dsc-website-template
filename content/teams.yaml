@@ -1,33 +1,43 @@
-- name: John Doe
-  role: Mentor
-  img: images/teams/avatar.png
+- name: Andrea Bacciu
+  role: DSC Lead
+  img: images/teams/andreabacciu.jpeg
   descs:
-    - Mobile and Web developer
-    - Open source enthusiast
-    - Community mentor
+    - Artificial Intelligence
+    - System Programming
+    - Machine Learning
   social:
-    twitter: https://www.example.com
-    github: https://www.example.com
-    linkedin: https://www.example.com
+    twitter: https://twitter.com/Andrea_Bacciu
+    github: https://www.github.com/andreabac3
+    linkedin: https://www.linkedin.com/in/andreabacciu/
 
-- name: John Doe 2
-  role: Mentor
+- name: Alessandro Scandone
+  role: DSC Core Member
   img: images/teams/avatar.png
   descs:
     - Mobile and Web developer
     - Open source enthusiast
     - Community mentor
   social:
-    twitter: https://www.example.com
-    github: https://www.example.com
+    github: https://github.com/ascandone
 
-- name: John Doe 3
-  role: Mentor
-  img: images/teams/avatar.png
+- name: Emanuele Giona
+  role: DSC Core Member
+  img: images/teams/emanuelegiona.jpeg
   descs:
-    - Mobile and Web developer
-    - Open source enthusiast
-    - Community mentor
+    - Artificial Intelligence
+    - Backend development
   social:
-    github: https://www.example.com
-    linkedin: https://www.example.com
+    twitter: https://twitter.com/emanuele_giona
+    github: https://www.github.com/emanuelegiona
+    linkedin: https://www.linkedin.com/in/emanuelegiona/
+
+- name: Riccardo Taiello
+  role: DSC Core Member
+  img: images/teams/riccardotaiello.jpeg
+  descs:
+    - Model Checking & Formal Methods
+    - Machine Learning
+  social:
+    github: https://github.com/Riccardinho22
+    linkedin: https://www.linkedin.com/in/riccardo-taiello-13a435173/
+
